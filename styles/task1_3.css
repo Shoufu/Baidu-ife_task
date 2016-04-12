@@ -5,3 +5,69 @@
  * @date    2016-04-12
  * @version $Id$
  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    position: relative;
+    background-color: #eee;
+    margin: 20px;
+    border: 1px solid rgb(152, 152, 152);
+    padding: 20px;
+    min-height: 430px;
+    min-width: 600px;
+}
+
+.logo {
+    position: absolute;
+    background-color: #fff;
+    font-size: 0.9em;
+    border: 1px solid rgb(152, 152, 152);
+    padding: 20px;
+    width: 160px;
+}
+
+img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(152, 152, 152);
+}
+
+img.last {
+    margin-bottom: 0;
+}
+
+.logo p {
+    margin-left: 100px;
+}
+
+article {
+    background-color: #fff;
+    margin-left: 220px;
+    margin-right: 140px;
+    border: 1px solid rgb(152, 152, 152);
+    padding: 20px;
+}
+
+article h2 {
+    margin-bottom: 20px;
+}
+
+article section p {
+    margin-bottom: 10px;
+}
+
+aside {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid rgb(152, 152, 152);
+    padding: 20px;
+    width: 80px;
+}
