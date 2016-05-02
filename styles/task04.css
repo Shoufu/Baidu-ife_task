@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Shoufu (gyming@outlook.com)
+ * @date    2016-05-02
+ * @version $Id$
+ */
+ .background {
+     background-color: #ccc;
+     width: 400px;
+     height: 200px;
+
+     /*水平居中*/
+     margin: auto;
+
+     /*垂直居中*/
+     position: absolute;
+     overflow: hidden;
+     top: 50%;
+     left: 50%;
+     margin-top: -100px;
+     margin-left: -200px;
+ }
+
+ .semicircle {
+     background-color: #fc0;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+ }
+
+ .top {
+     border-radius: 0 0 50px 0;
+     top: 0px;
+     left: 0px;
+ }
+
+ .bottom {
+     border-radius: 50px 0 0 0;
+     bottom: 0px;
+     right: 0px;
+ }
